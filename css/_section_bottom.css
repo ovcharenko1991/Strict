@@ -1,0 +1,40 @@
+.banner_wrap_bottom {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/bg_bottom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+input {
+  width: 400px;
+  height: 40px;
+  margin-top: 3%;
+  background: transparent;
+  color: #999999;
+  border: 1px solid;
+  padding-left: 15px;
+  font-size: .75rem;
+  text-wrap: wrap; }
+
+.in-message {
+  height: 125px;
+  padding-bottom: 90px;
+  margin-bottom: 3%; }
+
+.subscribe {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-size: .5rem; }
+  .subscribe input {
+    margin: 0;
+    width: 15px;
+    height: 15px;
+    margin-top: 13px; }
+  .subscribe p {
+    padding: 9px 10px 0 0;
+    color: #fff; }

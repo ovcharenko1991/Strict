@@ -1,0 +1,49 @@
+.banner_wrap_bottom {
+	position: relative;
+	height: 100%;
+	background-image: url(../img/bg_bottom.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.banner_outro {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	text-align: center;
+	color: #fff;
+	hr {border-color: #15a4fa;}
+	p {
+		color: #999999;
+	}
+}
+input {
+	width: 50%;
+	height: 40px;
+	margin-top: 3%;
+	background: transparent;
+	color: #999999;
+	border: 1px solid;
+	padding-left: 15px;
+	font-size: .75rem;
+	text-wrap: wrap;
+}
+.in-message {
+	height: 125px;
+	padding-bottom: 90px;
+	margin-bottom: 3%;
+}
+.subscribe {
+	left: 50%;
+	display: flex;
+	justify-content: center;
+	text-size: .5rem;
+	input {
+		margin: 0;
+		width: 10px;
+		height: 15px;
+		margin-top: 13px;
+	}
+	p {
+		padding: 9px 10px 0 0;
+		color: #fff;
+	}
+}

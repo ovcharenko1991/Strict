@@ -1,0 +1,28 @@
+.banner_wrap {
+  position: relative;
+  height: 100vh;
+  background-image: url(../img/bg_top.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.banner_wrap:before {
+  content: '';
+  background-color: #111;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: block; }
+
+.banner_intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; }
+  .banner_intro hr {
+    border-color: #15a4fa; }
+  .banner_intro p {
+    color: #999999; }
